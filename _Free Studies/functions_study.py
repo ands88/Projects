@@ -54,3 +54,11 @@ def save_user(**user):
     print(user)
 
 save_user(id=1, name='Anderson', age='35')
+
+# Scope - Regigão do código onde a variável é definida
+# variável local = o escopo de uma variável é a sua função, ela só existe dentro dela. Isso quer dizer que podemos ter várias funções com o mesmo nome parâmetro e variáveis
+# variável global = o escopo dessa variável é mais amplo, é acessada de qualquer lugar do arquivo. 
+
+def greet2 ():
+    message = 'Hi' 
+
